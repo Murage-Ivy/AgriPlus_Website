@@ -16,12 +16,13 @@
 }
 
 html {
-  scroll-behavior: smooth;
+   /* width: 70%;
+   margin: auto; */
 }
 /* Body styles */
 body {
   border: 1px solid black;
-  max-width: 70%;
+  max-width: 100%;
   margin: auto;
   position: relative;
   background-color: white;
@@ -74,7 +75,7 @@ body {
 #get-started {
   color: white;
   background-color: var(--orange);
-  padding: 15px 25px ;
+  padding: 15px 25px;
   font-size: 0.9rem;
   font-weight: 700;
 }
@@ -89,7 +90,10 @@ body {
   background-repeat: no-repeat;
   min-height: 500px;
   margin: auto;
-  top: 0;right: 0;left: 0;bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
   position: relative;
   z-index: 1000;
 }
@@ -98,43 +102,100 @@ body {
   line-height: 1.5;
 }
 .col-1 {
-
   border: 1px solid green;
-  flex-basis:  100%;  
-  
+  flex-basis: 100%;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  min-width: 500px;
 }
-.col-2-img{
-   position: relative;
-   right: 0;
+
+.explore a{
+    /* background-color: #ed661f; */
+    color: white;
+    font-family: poppins;
+    font-weight: 900;
+}
+
+.explore{
+    padding: 15px 10px 15px 10px;
+    background-color: #ed661f;
+    width: 130px;
+
+}
+.col-2-img {
+  position: relative;
+  right: 0;
 }
 
 .col-2-img img {
   max-width: 100%;
   padding: 20px;
- 
-
 }
 .row {
   display: flex;
   border: 2px solid black;
   justify-items: center;
+
 }
 
-.row-1 {
-  /* position: relative;
-    right: 0;
-    display: flex;
-    background-color: white;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 150px;
-    padding: 20px;
-    width:600px;
-    position: absolute;
-    bottom: 10px; */
+
+/* End of header-container */
+
+/* Start of row one styles */
+.row-1 {  
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 150px;
+  padding: 20px;
+  width: 600px;
+  box-shadow: 2px 2px 5px grey;
+  position: relative;
+  left: 200px;
+  bottom: 80px;
+  z-index: 1000;
 }
 
 .col-2 {
   text-align: center;
 }
-/* End of header-container */
+/* end of row styles */
+
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    margin:30px;
+    position: relative;
+    border: 1px solid red;
+}
+
+.about-col-2{
+    position: relative;
+    bottom:80px;
+    right: 0;
+   
+}
+.about-col-2 img{
+    max-width: 100%;
+    
+    
+}
+
+.about-col-1{
+    flex-basis: 100%;
+    border:1px solid black;
+    min-width: 500px;   
+   
+}
+
+#title-about{
+    line-height: 3;
+    
+}
+
+
+
