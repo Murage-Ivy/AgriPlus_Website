@@ -13,7 +13,6 @@
   font-family: inter, sans-serif;
   outline: none;
   border: none;
-  text-transform: capitalize;
 }
 
 html {
@@ -22,10 +21,11 @@ html {
 /* Body styles */
 body {
   border: 1px solid black;
-  max-width:70% ;
+  max-width: 70%;
   margin: auto;
   position: relative;
   background-color: white;
+  position: relative;
 } /* End of body styles */
 
 /* Start of styling of the header section */
@@ -59,41 +59,82 @@ body {
   border-bottom: 2px solid var(--orange);
 }
 .header-buttons {
-
-    display: flex;
-    padding: 20px;
-    gap: 50px;
-  }
-  #login {
-    color: white;
-    font-family: poppins;
-    background-color: black;
-    font-size: 0.9rem;
-    font-weight: 700;
-  }
-  
-  #get-started {
-    color: white;
-    background-color: var(--orange);
-    padding: 15px 25px;
-    font-size: 0.9rem;
-    font-weight: 700;
-  }
-  /* End of styling of the header section */
-/* Start of header-container */
-.header_container {
-  border: 1px solid green;
-  background-image: url("/assets/image\ 1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  position: sticky;
-  z-index: 1000;
+  display: flex;
+  padding: 20px;
+  gap: 50px;
+}
+#login {
+  color: white;
+  font-family: poppins;
+  background-color: black;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
+#get-started {
+  color: white;
+  background-color: var(--orange);
+  padding: 15px 25px ;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+/* End of styling of the header section */
+/* Start of header-container */
+.header_container {
+  display: flex;
+  align-items: center;
+  border: 1px solid green;
+  background-image: url("/assets/image\ 1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin: auto;
+  top: 0;right: 0;left: 0;bottom: 0;
+  position: relative;
+  z-index: 1000;
+}
+.col-1 h2 {
+  font-family: poppins;
+  line-height: 1.5;
+}
+.col-1 {
 
+  border: 1px solid green;
+  flex-basis:  100%;  
+  
+}
+.col-2-img{
+   position: relative;
+   right: 0;
+}
+
+.col-2-img img {
+  max-width: 100%;
+  padding: 20px;
+ 
+
+}
+.row {
+  display: flex;
+  border: 2px solid black;
+  justify-items: center;
+}
+
+.row-1 {
+  /* position: relative;
+    right: 0;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 150px;
+    padding: 20px;
+    width:600px;
+    position: absolute;
+    bottom: 10px; */
+}
+
+.col-2 {
+  text-align: center;
+}
 /* End of header-container */
