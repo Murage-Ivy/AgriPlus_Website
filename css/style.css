@@ -30,6 +30,55 @@ body {
   position: relative;
 } /* End of body styles */
 
+
+.underline-1{
+  height: 0;
+  width: 70px;
+  border: 2px solid #ed661f;
+  position: relative;
+  bottom: 15px;
+
+}
+
+.underline-2{
+  height: 0;
+  width: 70px;
+  border: 2px solid #ed661f;
+  position: relative;
+  bottom: 40px;
+  left:500px
+
+}
+
+.underline-3{
+  height: 0;
+  width: 70px;
+  border: 2px solid #ed661f;
+  position: relative;
+  bottom: -5px;
+  left:45px;
+
+}
+
+.underline-4{
+  height: 0;
+  width: 50px;
+  border: 2px solid #ed661f;
+  position: relative;
+  bottom: -20px;
+  left:-70px;
+
+}
+
+.underline-5{
+  height: 0;
+  width: 60px;
+  border: 2px solid #ed661f;
+  position: relative;
+  bottom: -25px;
+  left:-130px;
+
+}
 /* Start of styling of the header section */
 #main-title {
   font-family: poppins;
@@ -437,10 +486,11 @@ form {
   display: flex;
   width: 120px;
   height: 40px;
-  background-color: gray;
+  background-color: rgb(204, 198, 198);
   align-items: center;
   margin-top: 30px;
-  border-radius: 2px;
+  border-radius: 5px;
+  justify-content: center;
 }
 
 .download a {
@@ -458,11 +508,58 @@ form {
 
 /* End of styling of section-2 */
 
+
+footer > #copyrights{
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
 /* End of footer styles */
 
-/* @media only screen and (min-width: 412px)
+@media only screen and (max-width: 820px) 
 {
   body{
     min-width: 100%;
+    min-height: 100%;
+  }
+
+  .underline-2{
+    height: 0;
+    width: 70px;
+    border: 2px solid #ed661f;
+    position: relative;
+    bottom: 40px;
+    left:400px
+  
+  }
+}
+
+
+/* @media only screen and (max-width: 740px) 
+{
+ #banner{
+ margin: auto;
+ 
+
+  }
+
+
+  body{
+  width: 50%; 
+  margin: auto;
+ 
+  }
+
+
+
+  .underline-2{
+    height: 0;
+    width: 70px;
+    border: 2px solid #ed661f;
+    position: relative;
+    bottom: 40px;
+    left:300px
+  
   }
 } */
