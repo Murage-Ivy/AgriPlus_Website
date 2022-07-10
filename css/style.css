@@ -172,7 +172,6 @@ body {
   clear: both;
 }
 
-
 .about-col-2 img {
   max-width: 100%;
 }
@@ -278,15 +277,12 @@ body {
 }
 
 .review-1 {
-    text-align: center;
-    
+  text-align: center;
 }
 
 .bi-star-fill {
   color: var(--orange);
   font-size: 1.5rem;
- 
-  
 }
 
 #review1 > .bi-star-fill:nth-child(5) {
@@ -294,33 +290,28 @@ body {
 }
 
 .person img {
-  max-width: 20%; 
+  max-width: 20%;
 }
 
-.person{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+.person {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
 }
-.name{
-    padding-top:20px;
-    margin-left: 20px;
+.name {
+  padding-top: 20px;
+  margin-left: 20px;
 }
 
 #learn-more-1 {
-    display: flex;
-    gap:15px;
-    border: 1px solid black; 
-    width: max-content;
-    float: right;
+  display: flex;
+  gap: 15px;
+  border: 1px solid black;
+  width: max-content;
+  float: right;
 }
 
-bi-arrow-right
-
-
-
-
-
-
-
+.bi-arrow-right {
+  color: #ed661f;
+}
 /* End of customer review section */ ;
