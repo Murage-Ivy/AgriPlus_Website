@@ -128,7 +128,7 @@ body {
 /* Start of header-container */
 .header_container {
   align-items: center;
-  background-image: url("/assets/image\ 1.png");
+  background-image: url("/assets/image1.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   min-height: 500px;
