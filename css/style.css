@@ -324,3 +324,46 @@ body {
 }
 
 
+footer{
+    margin-top: 50px;
+}
+
+.section-1{
+    background-color: black;
+    color: white;
+    height:300px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type=email], input[type=Subscribe]{
+   height: 35px;
+   margin: 0;
+   font-family: poppins;
+   text-align: center;
+}
+
+input[type=email]::placeholder{
+    color: black;
+}
+input[type=Subscribe]::placeholder{
+    color: white;
+}
+
+input[type=Subscribe]{
+    width:150px;
+    color: white;
+    font-weight: bold;
+    background-color: #ed661f;
+    margin: 0;
+}
+
+.section-1 p{
+    margin-top:10px ;
+}
+
+form{
+    margin-top: 50px;
+}
