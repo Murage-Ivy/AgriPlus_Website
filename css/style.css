@@ -542,9 +542,14 @@ footer > #copyrights{
 
 @media only screen and (max-width: 420px) 
 {
+  html{
+    margin: auto;
+    scroll-behavior: smooth;
+  }
   body{
     min-width: 100%;
     min-height: 100%;
+    margin: auto;
   }
 
   .underline-2{
@@ -575,8 +580,20 @@ footer > #copyrights{
   }
 
   .row-1{
-    width: 75%;
-    right: 50px;
+    
+    right: 0px;
+  }
+
+  .row {
+    display: block;
+   
+  }
+
+  .col-1 p{
+    width:350px;
+  }
+  .col-2-img img{
+    max-width: 100%;
   }
 }
 
