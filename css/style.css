@@ -314,4 +314,13 @@ body {
 .bi-arrow-right {
   color: #ed661f;
 }
-/* End of customer review section */ ;
+/* End of customer review section */
+.line {
+  border-style: inset;
+  background-color: rgb(209, 201, 201);
+  height: 20px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+
