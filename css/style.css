@@ -24,7 +24,7 @@ html {
 /* Body styles */
 body {
   border: 1px solid black;
-  max-width: 70%;
+  /* max-width: 70%; */
   margin: auto;
   position: relative;
   background-color: white;
@@ -376,6 +376,10 @@ form {
   padding-top: 80px;
 }
 
+.contact-info {
+  padding-left: 30px;
+}
+
 .contact-info h2 {
   font-family: poppins;
   margin-bottom: 10px;
@@ -417,10 +421,42 @@ form {
 .social-media {
   display: flex;
   gap: 20px;
-
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.app h4 {
+  font-family: poppins;
+}
+
+.download-buttons {
+  display: flex;
+  gap:20px;
+}
+
+.download {
+  display: flex;
+  border: 1px solid green;
+  background-color: gray;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 2px;
+  
+}
+
+.download a {
+  color: black;
+  font-family: poppins;
+  font-size: 0.5rem;
+}
+.download img {
+  height: 20px;
+}
+
+.download > a > span {
+  font-weight: bold;
+}
+
 /* End of styling of section-2 */
 
 /* End of footer styles */
