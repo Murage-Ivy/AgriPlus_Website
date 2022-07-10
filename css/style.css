@@ -23,8 +23,7 @@ html {
 }
 /* Body styles */
 body {
-  border: 1px solid black;
-  /* max-width: 70%; */
+  max-width: 80%;
   margin: auto;
   position: relative;
   background-color: white;
@@ -82,11 +81,11 @@ body {
   font-weight: 700;
 }
 /* End of styling of the header section */
+
+
 /* Start of header-container */
 .header_container {
-  /* display: flex; */
   align-items: center;
-  border: 1px solid green;
   background-image: url("/assets/image\ 1.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -104,7 +103,6 @@ body {
   line-height: 1.5;
 }
 .col-1 {
-  border: 1px solid green;
   flex-basis: 100%;
   text-align: left;
   margin-top: 50px;
@@ -114,7 +112,6 @@ body {
 }
 
 .explore a {
-  /* background-color: #ed661f; */
   color: white;
   font-family: poppins;
   font-weight: 900;
@@ -136,7 +133,6 @@ body {
 }
 .row {
   display: flex;
-  border: 2px solid black;
   justify-items: center;
 }
 
@@ -146,15 +142,15 @@ body {
 .row-1 {
   float: right;
   position: relative;
-  top: 20px;
-  right: 150px;
+  top: 50px;
+  right: 110px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   position: relative;
   box-shadow: 2px 2px 5px grey;
   background-color: white;
-  padding: 50px;
+  padding: 40px;
 }
 
 .col-2 {
@@ -162,14 +158,14 @@ body {
   margin: 20px;
 }
 /* end of row styles */
+
+
 /* Start of styling of the about section */
 .container-2 {
   display: flex;
   justify-content: center;
   margin: 30px;
-  position: relative;
-  border: 1px solid red;
-  clear: both;
+  margin-top: 80px;
 }
 
 .about-col-2 img {
@@ -178,7 +174,6 @@ body {
 
 .about-col-1 {
   flex-basis: 100%;
-  border: 1px solid black;
   min-width: 500px;
 }
 
@@ -203,7 +198,10 @@ body {
 .categories {
   display: flex;
   margin-bottom: 50px;
-  border: 2px solid black;
+}
+
+.product-title h3{
+  margin-left:45px;
 }
 
 .category-1,
@@ -227,9 +225,13 @@ body {
 }
 
 .row-1-products {
-  border: 1px solid red;
   text-align: center;
   padding-bottom: 50px;
+}
+
+#learn-more{
+  float: right;
+  display: flex;
 }
 
 #title-products {
@@ -240,7 +242,6 @@ body {
 #learn-more h4 {
   color: black;
   width: max-content;
-  float: right;
 }
 /* End of styling of the product section */
 
@@ -248,7 +249,6 @@ body {
 .review-conatiner {
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
 }
 
 .review {
@@ -301,7 +301,6 @@ body {
 #learn-more-1 {
   display: flex;
   gap: 15px;
-  border: 1px solid black;
   width: max-content;
   float: right;
 }
@@ -415,7 +414,7 @@ form {
   justify-content: space-around;
   width: 600px;
   height: max-content;
-  padding-right: 100px;
+  padding-right: 50px;
 }
 
 .social-media {
@@ -431,17 +430,17 @@ form {
 
 .download-buttons {
   display: flex;
-  gap:20px;
+  gap: 20px;
 }
 
 .download {
   display: flex;
-  border: 1px solid green;
+  width: 120px;
+  height: 40px;
   background-color: gray;
   align-items: center;
   margin-top: 30px;
   border-radius: 2px;
-  
 }
 
 .download a {
