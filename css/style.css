@@ -30,54 +30,48 @@ body {
   position: relative;
 } /* End of body styles */
 
-
-.underline-1{
+.underline-1 {
   height: 0;
   width: 70px;
   border: 2px solid #ed661f;
   position: relative;
   bottom: 15px;
-
 }
 
-.underline-2{
+.underline-2 {
   height: 0;
   width: 70px;
   border: 2px solid #ed661f;
   position: relative;
   bottom: 40px;
-  left:400px
-
+  left: 500px;
 }
 
-.underline-3{
+.underline-3 {
   height: 0;
   width: 70px;
   border: 2px solid #ed661f;
   position: relative;
   bottom: -5px;
-  left:45px;
-
+  left: 45px;
 }
 
-.underline-4{
+.underline-4 {
   height: 0;
   width: 50px;
   border: 2px solid #ed661f;
   position: relative;
   bottom: -20px;
-  left:-70px;
-
+  left: -70px;
 }
 
-.underline-5{
+.underline-5 {
   height: 0;
   width: 60px;
   border: 2px solid #ed661f;
   position: relative;
   bottom: -25px;
-  left:-130px;
-
+  left: -130px;
 }
 /* Start of styling of the header section */
 #main-title {
@@ -130,7 +124,6 @@ body {
   font-weight: 700;
 }
 /* End of styling of the header section */
-
 
 /* Start of header-container */
 .header_container {
@@ -205,9 +198,9 @@ body {
 .col-2 {
   text-align: center;
   margin: 20px;
+  font-weight: bold;
 }
 /* end of row styles */
-
 
 /* Start of styling of the about section */
 .container-2 {
@@ -224,6 +217,7 @@ body {
 .about-col-1 {
   flex-basis: 100%;
   min-width: 500px;
+  
 }
 
 #title-about {
@@ -249,8 +243,8 @@ body {
   margin-bottom: 50px;
 }
 
-.product-title h3{
-  margin-left:45px;
+.product-title h3 {
+  margin-left: 45px;
 }
 
 .category-1,
@@ -278,7 +272,7 @@ body {
   padding-bottom: 50px;
 }
 
-#learn-more{
+#learn-more {
   float: right;
   display: flex;
 }
@@ -508,92 +502,83 @@ form {
 
 /* End of styling of section-2 */
 
-
-footer > #copyrights{
+footer > #copyrights {
   background-color: black;
   text-align: center;
   color: white;
   font-weight: bold;
 }
 
-.section-1 h4{
+.section-1 h4 {
   font-size: 1.5rem;
   font-family: poppins;
 }
 /* End of footer styles */
 
-@media only screen and (max-width: 1000px) 
-{
-  body{
+@media only screen and (max-width: 1000px) {
+  body {
     min-width: 100%;
     min-height: 100%;
   }
 
-  .underline-2{
+  .underline-2 {
     height: 0;
     width: 70px;
     border: 2px solid #ed661f;
     position: relative;
     bottom: 40px;
-    left:400px
-  
+    left: 400px;
   }
 }
 
-@media only screen and (max-width: 420px) 
-{
-  html{
+@media only screen and (max-width: 420px) {
+  html {
     margin: auto;
     scroll-behavior: smooth;
   }
-  body{
+  body {
     min-width: 100%;
     min-height: 100%;
     margin: auto;
   }
 
-  .underline-2{
+  .underline-2 {
     height: 0;
     width: 70px;
     border: 2px solid #ed661f;
     position: relative;
     bottom: 40px;
-    left:200px
-  
+    left: 200px;
   }
 
-  .categories{
-    display:block;
-    
-  }
-
-  .review{
+  .categories {
     display: block;
   }
 
-  #banner{
+  .review {
     display: block;
   }
 
-  .container-2{
+  #banner {
     display: block;
   }
 
-  .row-1{
-    
+  .container-2 {
+    display: block;
+  }
+
+  .row-1 {
     right: 0px;
   }
 
   .row {
     display: block;
-   
   }
 
-  .col-1 p{
-    width:350px;
+  .col-1 p {
+    width: 350px;
   }
-  .col-2-img img{
+  .col-2-img img {
     max-width: 100%;
   }
 }
-
