@@ -1,11 +1,11 @@
-#AgriPlus Website Landing Page
+# AgriPlus Website Landing Page
 #### Brief description of application
 AgriPlus is an agricultural B2C online ecommerce webiste  that supplies fruits from vendors , farmers and harvesters to consumers when they order through their website. The landing page below was designed to show case their products as well as how you can reach them and also contact them. The landing page was designed using html and custom css. 
 #### Date of current version 
 11/07/2022
 ## Demo
 Here is a live demo of the landing page:  
-(murage-ivy.github.io/agriplus_website/)
+(https://murage-ivy.github.io/agriplus_website/)
 #### By 
 Ivy Wambui Murage
 ## Description
