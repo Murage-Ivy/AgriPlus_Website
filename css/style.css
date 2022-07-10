@@ -219,11 +219,6 @@ body {
   text-align: center;
 }
 
-.section-2 {
-  display: flex;
-  justify-content: space-between;
-}
-
 .category-1 img {
   max-width: 100%;
 }
@@ -323,47 +318,116 @@ body {
   margin-bottom: 35px;
 }
 
-
-footer{
-    margin-top: 50px;
+/* Start of the footer styles */
+footer {
+  margin-top: 50px;
 }
 
-.section-1{
-    background-color: black;
-    color: white;
-    height:300px;
-    padding: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.section-1 {
+  background-color: black;
+  color: white;
+  height: 300px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 5px solid white;
 }
 
-input[type=email], input[type=Subscribe]{
-   height: 35px;
-   margin: 0;
-   font-family: poppins;
-   text-align: center;
+input[type="email"],
+.submit {
+  height: 35px;
+  margin: 0;
+  font-family: poppins;
+  text-align: center;
+  font-weight: bold;
 }
 
-input[type=email]::placeholder{
-    color: black;
+input[type="email"]::placeholder {
+  color: black;
 }
-input[type=Subscribe]::placeholder{
-    color: white;
-}
-
-input[type=Subscribe]{
-    width:150px;
-    color: white;
-    font-weight: bold;
-    background-color: #ed661f;
-    margin: 0;
+.submit {
+  color: white;
 }
 
-.section-1 p{
-    margin-top:10px ;
+.submit {
+  width: 150px;
+  color: white;
+  font-weight: bold;
+  background-color: #ed661f;
+  margin: 0;
 }
 
-form{
-    margin-top: 50px;
+.section-1 p {
+  margin-top: 10px;
 }
+
+form {
+  margin-top: 50px;
+}
+
+/* Start of styling of the section-2 */
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  background-color: black;
+  color: white;
+  padding-top: 80px;
+}
+
+.contact-info h2 {
+  font-family: poppins;
+  margin-bottom: 10px;
+}
+
+.fa-brands {
+  background-color: rgb(206, 200, 200);
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.fa-twitter {
+  color: black;
+}
+
+.fa-instagram {
+  color: black;
+}
+
+.fa-facebook {
+  color: black;
+}
+.more-info {
+  line-height: 3;
+}
+
+.more-info a {
+  color: white;
+}
+
+.information {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  height: max-content;
+  padding-right: 100px;
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* End of styling of section-2 */
+
+/* End of footer styles */
+
+/* @media only screen and (min-width: 412px)
+{
+  body{
+    min-width: 100%;
+  }
+} */
