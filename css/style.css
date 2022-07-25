@@ -57,8 +57,9 @@ body {
   width: 50px;
   border: 2px solid #ed661f;
   position: relative;
-  bottom: -20px;
-  left: -70px;
+  top: 50px;
+  left: 50px;
+  float: right;
 }
 
 .underline-5 {
@@ -66,8 +67,9 @@ body {
   width: 60px;
   border: 2px solid #ed661f;
   position: relative;
-  bottom: -25px;
-  left: -130px;
+  top:50px;
+  left: 60px;
+  float: right;
 }
 /* Start of styling of the header section */
 #main-title {
@@ -270,6 +272,7 @@ body {
 #learn-more {
   float: right;
   display: flex;
+  align-items: center;
 }
 
 #title-products {
@@ -328,19 +331,21 @@ body {
 
 .person {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 20px;
+  align-items: center;
 }
+
 .name {
-  padding-top: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 #learn-more-1 {
   display: flex;
-  gap: 15px;
+  gap: 10px;
   width: max-content;
   float: right;
+  align-items: center;
 }
 
 .bi-arrow-right {
@@ -460,7 +465,6 @@ form {
   left: 40px;
 }
 
-
 .information {
   display: flex;
   justify-content: space-around;
@@ -575,7 +579,6 @@ form {
   .row {
     display: block;
   }
-
 
   .col-2-img img {
     max-width: 100%;
