@@ -409,7 +409,7 @@ form {
   justify-content: space-between;
   background-color: black;
   color: white;
-  padding-top: 80px;
+  border:1px solid yellow;
 }
 
 .contact-info {
@@ -439,9 +439,16 @@ form {
   color: black;
 }
 .more-info {
-  line-height: 3;
+  border:1px solid green;
+
 }
 
+.more-info ul li  {
+  color: white;
+  border:1px solid red;
+  margin-bottom: 20px;
+ 
+}
 .more-info a {
   color: white;
 }
@@ -449,8 +456,9 @@ form {
 .information {
   display: flex;
   justify-content: space-around;
-  width: 600px;
-  padding-right: 50px;
+  padding-right: 0px;
+  border:1px solid red;
+  margin-right: 80px;
 }
 
 .social-media {
@@ -508,23 +516,9 @@ footer > #copyrights {
 }
 /* End of footer styles */
 
+
+
 @media only screen and (max-width: 1000px) {
-  body {
-    min-width: 100%;
-    min-height: 100%;
-  }
-
-  .underline-2 {
-    height: 0;
-    width: 70px;
-    border: 2px solid #ed661f;
-    position: relative;
-    bottom: 40px;
-    left: 400px;
-  }
-}
-
-@media only screen and (max-width: 420px) {
   html {
     scroll-behavior: smooth;
   }
@@ -573,13 +567,26 @@ footer > #copyrights {
     max-width: 100%;
   }
 
+
+.submit{
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
   .section-2 {
     border: 1px solid red;
-    display: block;
+    flex-direction: column;
   }
   .information {
-    display: block;
+    flex-direction: column;
     margin-left: 0px;
     border: 1px solid white;
   }
+  .more-info {
+    border: 1px solid orange;
+  }
+
+
+.download-buttons {
+  display: block;
+}
 }
