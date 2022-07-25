@@ -446,9 +446,7 @@ form {
 .fa-facebook {
   color: black;
 }
-.more-info{
-  margin-right: 30px;
-}
+
 .more-info ul li {
   color: white;
   margin-bottom: 20px;
@@ -462,10 +460,11 @@ form {
   left: 40px;
 }
 
+
 .information {
   display: flex;
   justify-content: space-around;
-  margin-right: 100px;
+  margin-right: 150px;
 }
 
 .social-media {
@@ -525,13 +524,32 @@ form {
     margin: 0 auto;
   }
 
+  .col-1 {
+    margin-left: 0px;
+    min-width: 0px;
+  }
+  .about-col-1 {
+    flex-basis: 100%;
+    min-width: 0;
+  }
+  .row-1 {
+    float: none;
+    right: 0;
+    padding: 0px;
+  }
+  .col-2 {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+  }
+
   .underline-2 {
     height: 0;
     width: 70px;
     border: 2px solid #ed661f;
     position: relative;
     bottom: 40px;
-    left: 200px;
+    left: 100px;
   }
 
   .categories {
@@ -558,9 +576,7 @@ form {
     display: block;
   }
 
-  .col-1 p {
-    width: 350px;
-  }
+
   .col-2-img img {
     max-width: 100%;
   }
@@ -570,16 +586,11 @@ form {
     margin-top: 10px;
   }
   .section-2 {
-    border: 1px solid red;
     flex-direction: column;
   }
   .information {
     flex-direction: column;
     margin-left: 0px;
-    border: 1px solid white;
-  }
-  .more-info {
-    border: 1px solid orange;
   }
 
   .download-buttons {
