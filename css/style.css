@@ -6,7 +6,7 @@
 
 * {
   box-sizing: border-box;
-  list-style-type: none;
+  list-style: none;
   text-decoration: none;
   font-family: inter, sans-serif;
   outline: none;
@@ -402,14 +402,22 @@ input[type="email"]::placeholder {
 form {
   margin-top: 50px;
 }
-
+.footer-section-2 {
+  background-color: black;
+}
+.footer-section-2 > #copyrights {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
 /* Start of styling of the section-2 */
 .section-2 {
   display: flex;
   justify-content: space-between;
   background-color: black;
   color: white;
-  border:1px solid yellow;
+  margin-bottom: 40px;
 }
 
 .contact-info {
@@ -438,27 +446,26 @@ form {
 .fa-facebook {
   color: black;
 }
-.more-info {
-  border:1px solid green;
-
+.more-info{
+  margin-right: 30px;
 }
-
-.more-info ul li  {
+.more-info ul li {
   color: white;
-  border:1px solid red;
   margin-bottom: 20px;
- 
+  width: max-content;
 }
 .more-info a {
   color: white;
+}
+.more-info h4 {
+  position: relative;
+  left: 40px;
 }
 
 .information {
   display: flex;
   justify-content: space-around;
-  padding-right: 0px;
-  border:1px solid red;
-  margin-right: 80px;
+  margin-right: 100px;
 }
 
 .social-media {
@@ -503,20 +510,11 @@ form {
 
 /* End of styling of section-2 */
 
-footer > #copyrights {
-  background-color: black;
-  text-align: center;
-  color: white;
-  font-weight: bold;
-}
-
 .section-1 h4 {
   font-size: 1.5rem;
   font-family: poppins;
 }
 /* End of footer styles */
-
-
 
 @media only screen and (max-width: 1000px) {
   html {
@@ -567,11 +565,10 @@ footer > #copyrights {
     max-width: 100%;
   }
 
-
-.submit{
-  margin-bottom: 30px;
-  margin-top: 10px;
-}
+  .submit {
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
   .section-2 {
     border: 1px solid red;
     flex-direction: column;
@@ -585,8 +582,7 @@ footer > #copyrights {
     border: 1px solid orange;
   }
 
-
-.download-buttons {
-  display: block;
-}
+  .download-buttons {
+    display: block;
+  }
 }
